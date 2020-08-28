@@ -1,0 +1,290 @@
+.body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #f8f8ff;
+    height: 50px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.header-1 {
+    
+    width: 980px;
+    position: relative;
+}
+
+.column-noticias {
+    width: 50%;
+    float: left;
+}
+
+.column-usuario {
+    width: 50%;
+    float: right;
+}
+
+.column-usuario ul li, div button, a{
+    display: inline-block;
+    float: right;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    font-size: 14px;
+}
+
+
+
+.column-noticias ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.g1 {
+    color: #cc0000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.ge {
+    color: green;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.gshow {
+    color: orange;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.videos {
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.globo {
+    color: blue;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.menu-secundario{
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 3px solid #ffffff;
+    margin-top: 10px;
+    background-color: #cc0000;
+
+}
+
+.header-2 {
+    width: 980px;   
+    position: relative;
+    
+}
+
+.logo {
+    float: left;
+    padding:  15px;
+    width: 70%;
+}
+
+.autor-materia ul li {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+
+}
+
+.autor-materia {
+    width: 20%;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.menu ul li a { 
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.logo-g1 {   
+    height: 0;
+    margin-left: 110px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.menu {
+    width: 65%;
+    text-align: center;
+    float: left;
+
+}
+
+.buscar {
+    text-align: center;
+    width: 35%;
+    float: right;
+    
+}
+
+.buscar input {
+    background-color:darkred;
+    color: white;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    height: 30px;
+    padding: 7px;
+    width: 190px;
+    background-position: 95%;
+    border: 1px solid ;    
+    font-weight: bold;
+    
+}
+
+.menu-buttom {
+    background-color: #e218d8;
+}
+
+#check{
+    display: none;
+}
+
+#icone{
+    margin-top: 3px;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+
+
+.barra {
+    background-color: #333;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -320;
+    float: left;
+}
+
+nav{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    
+
+}
+
+nav a{    
+    float: left;
+}
+
+.link {
+    
+    background-color: white;
+    padding: 25;
+    font-family: Arial;
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: grey;
+    border-bottom: #050542;
+}
+
+#check:checked ~ .barra {
+    transform: translateX(300px);
+
+
+}
+
+#check:checked ~ .barra nav a .link {
+    opacity: 1;
+    margin-top: 5px;
+    transition-delay: .3s;
+}
+
+.materia {
+    width: 100%;
+    background-color: #f8f8ff;
+    height: 50px;
+}
+.title{
+    font-size: 24pt;
+    text-align: center;
+    align-items: center;
+
+}
+
+.header-materia {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    display: inline-block;
+}
+
+.autor-materia {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    padding: 0;
+}
+
+.autor-perfil{
+    float: left;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 50px;
+    
+    
+}
+.autor-perfil strong{
+    margin: 25;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    float: right;
+}
+
+.autor-perfil ul {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.redes{
+    
+    float: left;
+    margin-top: 50px;
+    
+
+}
+
